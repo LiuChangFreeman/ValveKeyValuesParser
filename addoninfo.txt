@@ -1,0 +1,24 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons.
+ 
+"AddonInfo"
+{
+     addonSteamAppID         550                                                     // 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+     addontitle              "RMS Titanic"                                           // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion	     2.0.1                                                     // Add-on version.
+     addontagline            "Are you ready to go back to Titanic?"	     // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "ThisKid55"                                                 // Name/alias of the author
+     addonSteamGroupName     "Random Acts of Legitimacy"                                       // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "ThisKid55"                                         // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+     addonContent_Campaign   1 	    //This addon provides muliple connected maps with a finale
+     addonContent_Script 1          // Has Scripts 
+     addonContent_Sound 1           // Has Custom Sound
+     addonContent_Music 1           // Has Custom Music 
+     addonURL0               "http://steamcommunity.com/sharedfiles/filedetails/?id=121443028" //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "The RMS Titanic was the largest passenger steamship in the world when she set off on her maiden voyage from Southampton, England, on 10 April 1912. Four days into the trip, on 14 April 1912, she struck an iceberg and sank, resulting in the deaths of 1,517 people. Now they're zombies."
+ 
+     // Authors can add localized descriptions here. (Not yet supported)
+     addonDescription_FR     "Les survivants doivent s'échapper en métro dans cette carte du tutoriel. Obtenez les fichiers et les outils pour créer vos propres cartes en chargeant les outils de création SDK Left 4 Dead 2 qui sont disponibles sous l'onglet "Outils" sur Steam."	
+ 
+}
